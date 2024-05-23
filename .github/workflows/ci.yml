@@ -2,9 +2,7 @@ name: ci
 
 on:
   schedule:
-    - cron: "0 1 * * *"
-    - cron: "0 5 * * *"
-    - cron: "0 10 * * *"
+    - cron: "5 * * * *"
   workflow_dispatch:
 
 jobs:
