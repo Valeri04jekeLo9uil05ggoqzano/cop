@@ -21,7 +21,8 @@ jobs:
         run: |
           git config --local user.email "2978124440@qq.com"
           git config --local user.name "John"
-          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          # 设置远程仓库地址
+          git remote set-url origin https://github.com/Valeri04jekeLo9uil05ggoqzano/cop
           git pull --rebase
           git commit --allow-empty -m "Make Program Every Day!"
           git push
