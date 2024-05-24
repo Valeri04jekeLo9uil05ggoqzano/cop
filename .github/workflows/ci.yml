@@ -19,8 +19,8 @@ jobs:
       - name: Conditional commit
         if: env.should_commit == '1'
         run: |
-          # git config --local user.email "Valeri04jekeLo9uil05ggoqzano"
-          #  git config --local user.name "John Perry"
+          git config --local user.email "2978124440@qq.com"
+          git config --local user.name "John"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
           git commit --allow-empty -m "Make Program Every Day!"
