@@ -22,7 +22,7 @@ jobs:
           git config --local user.email "2978124440@qq.com"
           git config --local user.name "John"
           # 设置远程仓库地址
-          git remote set-url origin https://github.com/Valeri04jekeLo9uil05ggoqzano/cop
+          git remote set-url origin git@github.com:Valeri04jekeLo9uil05ggoqzano/cop.git
           git pull --rebase
           git commit --allow-empty -m "Make Program Every Day!"
           git push
